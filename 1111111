@@ -1,4 +1,5 @@
-  - name: ❶台湾 01
+ proxies:
+ - name: ❶台湾 01
     type: vmess
     server: tw01.balala2016.xyz
     port: '10080'
