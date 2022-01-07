@@ -10,7 +10,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-path: /hk18
-  - name: 若多个无法使用|请更新软件
+  - name: 此条误选
     type: vmess
     server: hk12.balala2016.xyz
     port: '10080'
@@ -197,17 +197,6 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-path: /hk51
-  - name: '❶香港 04 [BGP]'
-    type: vmess
-    server: hk04.balala2016.xyz
-    port: '80'
-    uuid: 7b02f400-6521-11ec-a48f-651602c791d2
-    alterId: 0
-    cipher: auto
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /balala
   - name: '❶香港 06 [BGP]'
     type: vmess
     server: hk06.balala2016.xyz
@@ -368,7 +357,7 @@ proxy-groups:
     proxies:
       - "\U0001F680 自动选优"
       - '此条误选'
-      - 若多个无法使用|请更新软件
+      - 此条误选
       - ❶台湾 01
       - ❶香港 18
       - ❷香港 12
@@ -385,7 +374,6 @@ proxy-groups:
       - '❶香港 B4 [H]'
       - '❷香港 C2 [推荐]'
       - '❷香港 C3 [推荐]'
-      - '❶香港 04 [BGP]'
       - '❶香港 06 [BGP]'
       - '❶香港 02 [BGP]'
       - '❶香港 03 [BGP]'
@@ -406,7 +394,7 @@ proxy-groups:
     interval: 300
     proxies:
       - '此条误选'
-      - 若多个无法使用|请更新软件
+      - 此条误选
       - ❶台湾 01
       - ❶香港 18
       - ❷香港 12
@@ -423,7 +411,6 @@ proxy-groups:
       - '❶香港 B4 [H]'
       - '❷香港 C2 [推荐]'
       - '❷香港 C3 [推荐]'
-      - '❶香港 04 [BGP]'
       - '❶香港 06 [BGP]'
       - '❶香港 02 [BGP]'
       - '❶香港 03 [BGP]'
