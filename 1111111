@@ -1,20 +1,20 @@
 proxies:
-  - name: 'stop'
+  - name: '过期：2022-01-25 14:40:01'
     type: vmess
     server: hk18.balala2016.xyz
     port: '10080'
-    uuid: 04a29d10-3ddf-11ec-9e5a-6dc96ae988f5
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
     skip-cert-verify: true
     network: ws
     ws-path: /hk18
-  - name: stop
+  - name: 若多个无法使用|请更新软件
     type: vmess
     server: hk12.balala2016.xyz
     port: '10080'
-    uuid: 04a29d10-3ddf-11ec-9e5a-6dc96ae988f5
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -25,7 +25,7 @@ proxies:
     type: vmess
     server: tw01.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -36,7 +36,7 @@ proxies:
     type: vmess
     server: hk18.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -47,7 +47,7 @@ proxies:
     type: vmess
     server: hk12.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -58,7 +58,7 @@ proxies:
     type: vmess
     server: hk51.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -69,7 +69,7 @@ proxies:
     type: vmess
     server: js02.balala2016.xyz
     port: '20086'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -80,7 +80,7 @@ proxies:
     type: vmess
     server: transit01.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -91,7 +91,7 @@ proxies:
     type: vmess
     server: js01.balala2016.xyz
     port: '20086'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -102,7 +102,7 @@ proxies:
     type: vmess
     server: js02.balala2016.xyz
     port: '20086'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -113,7 +113,7 @@ proxies:
     type: vmess
     server: js03.balala2016.xyz
     port: '20086'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -124,7 +124,7 @@ proxies:
     type: vmess
     server: transit01.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -135,7 +135,7 @@ proxies:
     type: vmess
     server: js01.balala2016.xyz
     port: '20086'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -146,7 +146,7 @@ proxies:
     type: vmess
     server: js02.balala2016.xyz
     port: '20086'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -157,7 +157,7 @@ proxies:
     type: vmess
     server: js03.balala2016.xyz
     port: '20086'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -168,29 +168,18 @@ proxies:
     type: vmess
     server: transit01.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
     skip-cert-verify: true
     network: ws
     ws-path: /balala
-  - name: '❷香港 C1 [推荐]'
-    type: vmess
-    server: js01.balala2016.xyz
-    port: '20086'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
-    alterId: 0
-    cipher: auto
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /hk51
   - name: '❷香港 C2 [推荐]'
     type: vmess
     server: js02.balala2016.xyz
     port: '20086'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -201,73 +190,51 @@ proxies:
     type: vmess
     server: js03.balala2016.xyz
     port: '20086'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
     skip-cert-verify: true
     network: ws
     ws-path: /hk51
-  - name: '❷香港 C4 [H]'
+  - name: '❶香港 06 [BGP]'
     type: vmess
-    server: transit01.balala2016.xyz
-    port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
-    alterId: 0
-    cipher: auto
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /hk51
-  - name: '❷香港 15 [BGP]'
-    type: vmess
-    server: hk15.balala2016.xyz
+    server: hk06.balala2016.xyz
     port: '80'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
     skip-cert-verify: true
     network: ws
     ws-path: /balala
-  - name: '❷香港 16 [BGP]'
+  - name: '❶香港 02 [BGP]'
     type: vmess
-    server: hk16.balala2016.xyz
+    server: hk02.balala2016.xyz
     port: '80'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
     skip-cert-verify: true
     network: ws
     ws-path: /balala
-  - name: '❷香港 17 [BGP]'
+  - name: '❶香港 03 [BGP]'
     type: vmess
-    server: hk17.balala2016.xyz
+    server: hk03.balala2016.xyz
     port: '80'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
     skip-cert-verify: true
     network: ws
     ws-path: /balala
-  - name: '❷香港 19 [BGP]'
+  - name: ❶新加坡 01
     type: vmess
-    server: hk19.balala2016.xyz
+    server: sg01.balala2016.xyz
     port: '80'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
-    alterId: 0
-    cipher: auto
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /balala
-  - name: '❸香港23 [BGP]'
-    type: vmess
-    server: hk23.balala2016.xyz
-    port: '80'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -278,7 +245,7 @@ proxies:
     type: vmess
     server: js01.balala2016.xyz
     port: '20086'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -289,29 +256,18 @@ proxies:
     type: vmess
     server: transit01.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
     skip-cert-verify: true
     network: ws
     ws-path: /sg02
-  - name: ❷新加坡 06
-    type: vmess
-    server: sg06.balala2016.xyz
-    port: '80'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
-    alterId: 0
-    cipher: auto
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /balala
   - name: '❶日本 01 [M]'
     type: vmess
     server: js01.balala2016.xyz
     port: '20086'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -322,51 +278,18 @@ proxies:
     type: vmess
     server: transit01.balala2016.xyz
     port: '80'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
     skip-cert-verify: true
     network: ws
     ws-path: /jp01
-  - name: ❷日本 08
-    type: vmess
-    server: jp08.balala2016.xyz
-    port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
-    alterId: 0
-    cipher: auto
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /jp08
-  - name: '❸日本 11 [M]'
-    type: vmess
-    server: js01.balala2016.xyz
-    port: '20086'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
-    alterId: 0
-    cipher: auto
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /jp11
-  - name: '❶美国 01 [转]'
-    type: vmess
-    server: transit01.balala2016.xyz
-    port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
-    alterId: 0
-    cipher: auto
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /us01
   - name: '❶美国 02 [转]'
     type: vmess
     server: transit01.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -377,7 +300,7 @@ proxies:
     type: vmess
     server: js01.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -388,7 +311,7 @@ proxies:
     type: vmess
     server: transit01.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -399,7 +322,7 @@ proxies:
     type: vmess
     server: transit01.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -410,7 +333,7 @@ proxies:
     type: vmess
     server: transit01.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -421,7 +344,7 @@ proxies:
     type: vmess
     server: transit01.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: a9a09fa0-5ca8-11ec-a48f-651602c791d2
     alterId: 0
     cipher: auto
     udp: true
@@ -433,8 +356,8 @@ proxy-groups:
     type: select
     proxies:
       - "\U0001F680 自动选优"
-      - 'stop'
-      - stop
+      - '过期：2022-01-25 14:40:01'
+      - 若多个无法使用|请更新软件
       - ❶台湾 01
       - ❶香港 18
       - ❷香港 12
@@ -452,13 +375,16 @@ proxy-groups:
       - '❷香港 C2 [推荐]'
       - '❷香港 C3 [推荐]'
       - '❶香港 06 [BGP]'
-      - '❶香港 01 [BGP]'
       - '❶香港 02 [BGP]'
       - '❶香港 03 [BGP]'
       - ❶新加坡 01
-      - ❶日本 02
-      - '❶日本 03 [M]'
-      - '❶美国 01 [转]'
+      - '❶新加坡 02 [M]'
+      - '❶新加坡 03 [H]'
+      - '❶日本 01 [M]'
+      - '❶日本 03 [转]'
+      - '❶美国 02 [转]'
+      - '❷荷兰 [M]'
+      - '❷西班牙 [转]'
       - '❷法国 [转]'
       - '❷英国 [转]'
       - '❷韩国 [转]'
@@ -467,8 +393,8 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      - 'stop'
-      - stop
+      - '过期：2022-01-25 14:40:01'
+      - 若多个无法使用|请更新软件
       - ❶台湾 01
       - ❶香港 18
       - ❷香港 12
@@ -486,13 +412,16 @@ proxy-groups:
       - '❷香港 C2 [推荐]'
       - '❷香港 C3 [推荐]'
       - '❶香港 06 [BGP]'
-      - '❶香港 01 [BGP]'
       - '❶香港 02 [BGP]'
       - '❶香港 03 [BGP]'
       - ❶新加坡 01
-      - ❶日本 02
-      - '❶日本 03 [M]'
-      - '❶美国 01 [转]'
+      - '❶新加坡 02 [M]'
+      - '❶新加坡 03 [H]'
+      - '❶日本 01 [M]'
+      - '❶日本 03 [转]'
+      - '❶美国 02 [转]'
+      - '❷荷兰 [M]'
+      - '❷西班牙 [转]'
       - '❷法国 [转]'
       - '❷英国 [转]'
       - '❷韩国 [转]'
@@ -533,6 +462,7 @@ rules:
   - 'DOMAIN-SUFFIX,cylink.link,REJECT'
   - 'DOMAIN-SUFFIX,as64271.net,REJECT'
   - 'DOMAIN-SUFFIX,hitun.io,REJECT'
+  - 'DOMAIN-SUFFIX,jike0001.com,REJECT'
   - "DOMAIN-SUFFIX,ampproject.org,\U0001F3AF 节点选择"
   - "DOMAIN-SUFFIX,appspot.com,\U0001F3AF 节点选择"
   - "DOMAIN-SUFFIX,blogger.com,\U0001F3AF 节点选择"
@@ -1634,7 +1564,8 @@ rules:
   - 'DOMAIN-SUFFIX,zhihu.com,DIRECT'
   - 'DOMAIN-SUFFIX,zhimg.com,DIRECT'
   - 'DOMAIN-SUFFIX,zhuihd.com,DIRECT'
-  - 'DOMAIN-SUFFIX,gstatic.com,DIRECT'
+  - 'DOMAIN-SUFFIX,balala.work,DIRECT'
+  - 'DOMAIN-SUFFIX,balala.top,DIRECT'
   - 'DOMAIN,download.jetbrains.com,DIRECT'
   - 'DOMAIN,images-cn.ssl-images-amazon.com,DIRECT'
   - 'IP-CIDR,119.28.28.28/32,DIRECT,no-resolve'
