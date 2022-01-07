@@ -1,20 +1,20 @@
 proxies:
-  - name: '过期：2022-03-29 11:16:01'
+  - name: 'stop'
     type: vmess
     server: hk18.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: 04a29d10-3ddf-11ec-9e5a-6dc96ae988f5
     alterId: 0
     cipher: auto
     udp: true
     skip-cert-verify: true
     network: ws
     ws-path: /hk18
-  - name: 若多个无法使用|请更新软件
+  - name: stop
     type: vmess
     server: hk12.balala2016.xyz
     port: '10080'
-    uuid: a646f620-6855-11ec-a48f-651602c791d2
+    uuid: 04a29d10-3ddf-11ec-9e5a-6dc96ae988f5
     alterId: 0
     cipher: auto
     udp: true
@@ -433,8 +433,8 @@ proxy-groups:
     type: select
     proxies:
       - "\U0001F680 自动选优"
-      - '过期：2022-03-29 11:16:01'
-      - 若多个无法使用|请更新软件
+      - 'stop'
+      - stop
       - ❶台湾 01
       - ❶香港 18
       - ❷香港 12
@@ -449,26 +449,16 @@ proxy-groups:
       - '❶香港 B2 [推荐]'
       - '❶香港 B3 [推荐]'
       - '❶香港 B4 [H]'
-      - '❷香港 C1 [推荐]'
       - '❷香港 C2 [推荐]'
       - '❷香港 C3 [推荐]'
-      - '❷香港 C4 [H]'
-      - '❷香港 15 [BGP]'
-      - '❷香港 16 [BGP]'
-      - '❷香港 17 [BGP]'
-      - '❷香港 19 [BGP]'
-      - '❸香港23 [BGP]'
-      - '❶新加坡 02 [M]'
-      - '❶新加坡 03 [H]'
-      - ❷新加坡 06
-      - '❶日本 01 [M]'
-      - '❶日本 03 [转]'
-      - ❷日本 08
-      - '❸日本 11 [M]'
+      - '❶香港 06 [BGP]'
+      - '❶香港 01 [BGP]'
+      - '❶香港 02 [BGP]'
+      - '❶香港 03 [BGP]'
+      - ❶新加坡 01
+      - ❶日本 02
+      - '❶日本 03 [M]'
       - '❶美国 01 [转]'
-      - '❶美国 02 [转]'
-      - '❷荷兰 [M]'
-      - '❷西班牙 [转]'
       - '❷法国 [转]'
       - '❷英国 [转]'
       - '❷韩国 [转]'
@@ -477,8 +467,8 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      - '过期：2022-03-29 11:16:01'
-      - 若多个无法使用|请更新软件
+      - 'stop'
+      - stop
       - ❶台湾 01
       - ❶香港 18
       - ❷香港 12
@@ -493,26 +483,16 @@ proxy-groups:
       - '❶香港 B2 [推荐]'
       - '❶香港 B3 [推荐]'
       - '❶香港 B4 [H]'
-      - '❷香港 C1 [推荐]'
       - '❷香港 C2 [推荐]'
       - '❷香港 C3 [推荐]'
-      - '❷香港 C4 [H]'
-      - '❷香港 15 [BGP]'
-      - '❷香港 16 [BGP]'
-      - '❷香港 17 [BGP]'
-      - '❷香港 19 [BGP]'
-      - '❸香港23 [BGP]'
-      - '❶新加坡 02 [M]'
-      - '❶新加坡 03 [H]'
-      - ❷新加坡 06
-      - '❶日本 01 [M]'
-      - '❶日本 03 [转]'
-      - ❷日本 08
-      - '❸日本 11 [M]'
+      - '❶香港 06 [BGP]'
+      - '❶香港 01 [BGP]'
+      - '❶香港 02 [BGP]'
+      - '❶香港 03 [BGP]'
+      - ❶新加坡 01
+      - ❶日本 02
+      - '❶日本 03 [M]'
       - '❶美国 01 [转]'
-      - '❶美国 02 [转]'
-      - '❷荷兰 [M]'
-      - '❷西班牙 [转]'
       - '❷法国 [转]'
       - '❷英国 [转]'
       - '❷韩国 [转]'
@@ -553,7 +533,6 @@ rules:
   - 'DOMAIN-SUFFIX,cylink.link,REJECT'
   - 'DOMAIN-SUFFIX,as64271.net,REJECT'
   - 'DOMAIN-SUFFIX,hitun.io,REJECT'
-  - 'DOMAIN-SUFFIX,jike0001.com,REJECT'
   - "DOMAIN-SUFFIX,ampproject.org,\U0001F3AF 节点选择"
   - "DOMAIN-SUFFIX,appspot.com,\U0001F3AF 节点选择"
   - "DOMAIN-SUFFIX,blogger.com,\U0001F3AF 节点选择"
@@ -1655,8 +1634,7 @@ rules:
   - 'DOMAIN-SUFFIX,zhihu.com,DIRECT'
   - 'DOMAIN-SUFFIX,zhimg.com,DIRECT'
   - 'DOMAIN-SUFFIX,zhuihd.com,DIRECT'
-  - 'DOMAIN-SUFFIX,balala.work,DIRECT'
-  - 'DOMAIN-SUFFIX,balala.top,DIRECT'
+  - 'DOMAIN-SUFFIX,gstatic.com,DIRECT'
   - 'DOMAIN,download.jetbrains.com,DIRECT'
   - 'DOMAIN,images-cn.ssl-images-amazon.com,DIRECT'
   - 'IP-CIDR,119.28.28.28/32,DIRECT,no-resolve'
