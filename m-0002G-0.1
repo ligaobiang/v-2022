@@ -1,5 +1,5 @@
 proxies:
-  - name: '此条误选'
+  - name: 'x此条误选x'
     type: vmess
     server: hk18.balala2016.xyz
     servername: ''
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: ''
     ws-path: /hk18
-  - name: 此条误选
+  - name: x此条误选x2g
     type: vmess
     server: hk12.balala2016.xyz
     servername: ''
@@ -291,6 +291,23 @@ proxies:
     type: vmess
     server: hk04.balala2016.xyz
     servername: ''
+    port: '443'
+    uuid: e36c5810-7809-11ec-bc0c-d34635231d98
+    alterId: 0
+    cipher: auto
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /balala
+      headers:
+        Host: ''
+    tls: true
+    ws-path: /balala
+  - name: '❶香港 06 [BGP]'
+    type: vmess
+    server: hk06.balala2016.xyz
+    servername: ''
     port: '80'
     uuid: e36c5810-7809-11ec-bc0c-d34635231d98
     alterId: 0
@@ -306,6 +323,22 @@ proxies:
   - name: '❶香港 01 [BGP]'
     type: vmess
     server: hk01.balala2016.xyz
+    servername: ''
+    port: '80'
+    uuid: e36c5810-7809-11ec-bc0c-d34635231d98
+    alterId: 0
+    cipher: auto
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /balala
+      headers:
+        Host: ''
+    ws-path: /balala
+  - name: '❶香港 02 [BGP]'
+    type: vmess
+    server: hk02.balala2016.xyz
     servername: ''
     port: '80'
     uuid: e36c5810-7809-11ec-bc0c-d34635231d98
@@ -516,8 +549,8 @@ proxy-groups:
     type: select
     proxies:
       - "\U0001F680 自动选优"
-      - '此条误选'
-      - 此条误选
+      - 'x此条误选x'
+      - x此条误选x
       - ❶台湾 01
       - ❶香港 18
       - ❷香港 12
@@ -535,7 +568,9 @@ proxy-groups:
       - '❷香港 C2 [推荐]'
       - '❷香港 C3 [推荐]'
       - '❶香港 04 [BGP]'
+      - '❶香港 06 [BGP]'
       - '❶香港 01 [BGP]'
+      - '❶香港 02 [BGP]'
       - '❶香港 03 [BGP]'
       - ❶新加坡 01
       - '❶新加坡 02 [M]'
@@ -553,8 +588,8 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      - '此条误选'
-      - 此条误选
+      - 'x此条误选x'
+      - x此条误选x
       - ❶台湾 01
       - ❶香港 18
       - ❷香港 12
@@ -572,7 +607,9 @@ proxy-groups:
       - '❷香港 C2 [推荐]'
       - '❷香港 C3 [推荐]'
       - '❶香港 04 [BGP]'
+      - '❶香港 06 [BGP]'
       - '❶香港 01 [BGP]'
+      - '❶香港 02 [BGP]'
       - '❶香港 03 [BGP]'
       - ❶新加坡 01
       - '❶新加坡 02 [M]'
