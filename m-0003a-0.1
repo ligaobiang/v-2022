@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: ''
     ws-path: /hk18
-  - name: x此条误选x
+  - name: x此条误选x(3a)
     type: vmess
     server: hk12.balala2016.xyz
     servername: ''
@@ -320,6 +320,22 @@ proxies:
       headers:
         Host: ''
     ws-path: /balala
+  - name: '❶香港 01 [BGP]'
+    type: vmess
+    server: hk01.balala2016.xyz
+    servername: ''
+    port: '80'
+    uuid: 42cf2a10-859f-11ec-bc0c-d34635231d98
+    alterId: 0
+    cipher: auto
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /balala
+      headers:
+        Host: ''
+    ws-path: /balala
   - name: '❶香港 02 [BGP]'
     type: vmess
     server: hk02.balala2016.xyz
@@ -553,6 +569,7 @@ proxy-groups:
       - '❷香港 C3 [推荐]'
       - '❶香港 04 [BGP]'
       - '❶香港 06 [BGP]'
+      - '❶香港 01 [BGP]'
       - '❶香港 02 [BGP]'
       - '❶香港 03 [BGP]'
       - ❶新加坡 01
@@ -591,6 +608,7 @@ proxy-groups:
       - '❷香港 C3 [推荐]'
       - '❶香港 04 [BGP]'
       - '❶香港 06 [BGP]'
+      - '❶香港 01 [BGP]'
       - '❶香港 02 [BGP]'
       - '❶香港 03 [BGP]'
       - ❶新加坡 01
