@@ -1,10 +1,10 @@
 proxies:
-  - name: 'x此条误选x-'
+  - name: 'x此条误选x-bak'
     type: vmess
     server: hk18.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -15,12 +15,12 @@ proxies:
       headers:
         Host: ''
     ws-path: /hk18
-  - name: x此条误选x-
+  - name: x此条误选x-5abak
     type: vmess
     server: hk12.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -36,7 +36,7 @@ proxies:
     server: tw01.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -52,7 +52,7 @@ proxies:
     server: hk18.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -68,7 +68,7 @@ proxies:
     server: hk12.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -84,7 +84,7 @@ proxies:
     server: hk51.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -100,7 +100,7 @@ proxies:
     server: js02.balala2016.xyz
     servername: ''
     port: '20086'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -116,7 +116,7 @@ proxies:
     server: transit01.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -132,7 +132,7 @@ proxies:
     server: js01.balala2016.xyz
     servername: ''
     port: '20086'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -148,7 +148,7 @@ proxies:
     server: js02.balala2016.xyz
     servername: ''
     port: '20086'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -164,7 +164,7 @@ proxies:
     server: js03.balala2016.xyz
     servername: ''
     port: '20086'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -180,7 +180,7 @@ proxies:
     server: transit01.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -196,7 +196,7 @@ proxies:
     server: js01.balala2016.xyz
     servername: ''
     port: '20086'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -212,7 +212,7 @@ proxies:
     server: js02.balala2016.xyz
     servername: ''
     port: '20086'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -228,7 +228,7 @@ proxies:
     server: js03.balala2016.xyz
     servername: ''
     port: '20086'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -244,7 +244,7 @@ proxies:
     server: transit01.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -260,7 +260,7 @@ proxies:
     server: js02.balala2016.xyz
     servername: ''
     port: '20086'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -276,7 +276,7 @@ proxies:
     server: js03.balala2016.xyz
     servername: ''
     port: '20086'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -287,12 +287,12 @@ proxies:
       headers:
         Host: ''
     ws-path: /hk51
-  - name: '❶香港 04 [BGP]'
+  - name: '❶香港 06 [BGP]'
     type: vmess
-    server: hk04.balala2016.xyz
+    server: hk06.balala2016.xyz
     servername: ''
-    port: '443'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    port: '80'
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -302,14 +302,13 @@ proxies:
       path: /balala
       headers:
         Host: ''
-    tls: true
     ws-path: /balala
-  - name: '❶香港 06 [BGP]'
+  - name: '❶香港 01 [BGP]'
     type: vmess
-    server: hk06.balala2016.xyz
+    server: hk01.balala2016.xyz
     servername: ''
     port: '80'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -325,7 +324,7 @@ proxies:
     server: hk02.balala2016.xyz
     servername: ''
     port: '80'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -341,7 +340,23 @@ proxies:
     server: hk03.balala2016.xyz
     servername: ''
     port: '80'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
+    alterId: 0
+    cipher: auto
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /balala
+      headers:
+        Host: ''
+    ws-path: /balala
+  - name: ❶新加坡 01
+    type: vmess
+    server: sg01.balala2016.xyz
+    servername: ''
+    port: '80'
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -357,7 +372,7 @@ proxies:
     server: js01.balala2016.xyz
     servername: ''
     port: '20086'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -373,7 +388,7 @@ proxies:
     server: transit01.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -389,7 +404,7 @@ proxies:
     server: js01.balala2016.xyz
     servername: ''
     port: '20086'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -405,7 +420,7 @@ proxies:
     server: transit01.balala2016.xyz
     servername: ''
     port: '80'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -421,7 +436,7 @@ proxies:
     server: transit01.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -437,7 +452,7 @@ proxies:
     server: js01.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -453,7 +468,7 @@ proxies:
     server: transit01.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -469,7 +484,7 @@ proxies:
     server: transit01.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -485,7 +500,7 @@ proxies:
     server: transit01.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -501,7 +516,7 @@ proxies:
     server: transit01.balala2016.xyz
     servername: ''
     port: '10080'
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    uuid: e830e7d0-b9ae-11ec-ac53-57ad6e611215
     alterId: 0
     cipher: auto
     udp: true
@@ -517,8 +532,8 @@ proxy-groups:
     type: select
     proxies:
       - "\U0001F680 自动选优"
-      - 'x此条误选x-'
-      - x此条误选x-
+      - 'x此条误选x-bak'
+      - x此条误选x-5abak
       - ❶台湾 01
       - ❶香港 18
       - ❷香港 12
@@ -535,10 +550,11 @@ proxy-groups:
       - '❶香港 B4 [H]'
       - '❷香港 C2 [推荐]'
       - '❷香港 C3 [推荐]'
-      - '❶香港 04 [BGP]'
       - '❶香港 06 [BGP]'
+      - '❶香港 01 [BGP]'
       - '❶香港 02 [BGP]'
       - '❶香港 03 [BGP]'
+      - ❶新加坡 01
       - '❶新加坡 02 [M]'
       - '❶新加坡 03 [H]'
       - '❶日本 01 [M]'
@@ -554,8 +570,8 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      - 'x此条误选x-'
-      - x此条误选x-
+      - 'x此条误选x-bak'
+      - x此条误选x-5abak
       - ❶台湾 01
       - ❶香港 18
       - ❷香港 12
@@ -572,10 +588,11 @@ proxy-groups:
       - '❶香港 B4 [H]'
       - '❷香港 C2 [推荐]'
       - '❷香港 C3 [推荐]'
-      - '❶香港 04 [BGP]'
       - '❶香港 06 [BGP]'
+      - '❶香港 01 [BGP]'
       - '❶香港 02 [BGP]'
       - '❶香港 03 [BGP]'
+      - ❶新加坡 01
       - '❶新加坡 02 [M]'
       - '❶新加坡 03 [H]'
       - '❶日本 01 [M]'
